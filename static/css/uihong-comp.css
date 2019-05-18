@@ -11,17 +11,16 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     position: relative;
 }
-.module-card.uihong .webimgcard-visual {
+.module-card.uihong .card-visual {
 
 }
-.module-card.uihong .webimgcard-visual img {
+.module-card.uihong .card-visual img {
     border-radius: 5px 5px 0px 0px;
 }
 .module-card.uihong .card-contents {
 
 }
 .module-card.uihong .card-contents .icon-svg {
-    display: inline-block;
     position: absolute;
     right: 20px;
     bottom: 40px;
