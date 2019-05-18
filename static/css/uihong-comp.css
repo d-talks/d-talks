@@ -1,24 +1,34 @@
-<<<<<<< HEAD
 /* module CSS */
 body {
     font-family: 'Roboto', sans-serif;
 }
-.con {
+.con a {
     width: 260px;
-    height: 260px;
+    min-height: 250px;
+    display: block;
     background: #ffffff;
     border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
-.con p {
+.con a .webimg img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.con a h3 {
     color: #222222;
     font-size: 20px;
     font-weight: 500;
+    padding: 15px 10px;
 }
-.con span {
+.con a p {
     color: #999999;
     font-size: 10px;
     font-weight: 300;
+    padding: 0px 10px ;
 }
-=======
-/* module CSS */
->>>>>>> master
+.con a span {
+    color: #999999;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 10px;
+}
