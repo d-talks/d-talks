@@ -1,0 +1,10 @@
+/* Icon SVG CSS */
+.icon-svg {
+    display: block;
+}
+
+.svg-article {
+    width: 100px;
+    height: 100px;
+    background: url(../img/svg/icon_article.svg) no-repeat;
+}
