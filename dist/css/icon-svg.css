@@ -1,0 +1,29 @@
+/* Icon SVG CSS */
+.icon-svg {
+    display: block;
+}
+.svg-size {
+    background-size: contain !important;
+}
+
+.svg-article {
+    background: url(../img/svg/icon_article.svg) no-repeat;
+}
+.svg-awards {
+    background: url(../img/svg/icon_awards.svg) no-repeat;
+}
+.svg-company {
+    background: url(../img/svg/icon_company.svg) no-repeat;
+}
+.svg-education {
+    background: url(../img/svg/icon_education.svg) no-repeat;
+}
+.svg-gallery {
+    background: url(../img/svg/icon_gallery.svg) no-repeat;
+}
+.svg-portfolio {
+    background: url(../img/svg/icon_portfolio.svg) no-repeat;
+}
+.svg-shopping {
+    background: url(../img/svg/icon_shopping.svg) no-repeat;
+}
