@@ -4,11 +4,11 @@ body {
     padding: 20px;
 }
 .component-title {
-    background: skyblue;
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
     color: white;
+    line-height: normal;
     background: linear-gradient( to right, skyblue, #1d8dff );
 }
 .component-contents {
