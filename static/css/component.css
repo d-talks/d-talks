@@ -26,3 +26,35 @@ body {
     padding: 10px 20px;
     background: white;
 }
+
+
+
+
+
+/* uihong */
+.card-size-260 {
+    width: 260px;
+}
+
+.module-card.uihong {
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.module-card.uihong .card-visual {
+    width: 260px;
+    height: 200px;
+}
+.module-card.uihong .card-visual img {
+    width: 100%;
+}
+.module-card.uihong .card-contents {
+    position: relative;
+}
+.module-card.uihong .text-title {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 10px;
+}
