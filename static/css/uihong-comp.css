@@ -21,7 +21,6 @@ body {
 
 }
 .module-card.uihong .card-contents .icon-svg {
-    display: inline-block;
     position: absolute;
     right: 20px;
     bottom: 40px;
