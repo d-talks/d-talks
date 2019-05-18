@@ -1,0 +1,18 @@
+/* module CSS */
+body {
+    background: #626262;
+    padding: 20px;
+}
+.component-title {
+    background: skyblue;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient( to right, skyblue, #1d8dff );
+}
+.component-contents {
+    min-height: 400px;
+    padding: 10px 20px;
+    background: white;
+}
