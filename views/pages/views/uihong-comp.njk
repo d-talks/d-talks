@@ -1,15 +1,24 @@
 {% extends "layouts/component.njk" %}
-<link rel="stylesheet" type="text/css" href="/css/uihong-comp.css">
+
+{% block style %}
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/uihong-comp.css">
+{% endblock %}
 
 {% block component %}
 <h2 class="component-title">UIhong Card UI</h2>
 <div class="component-contents">
     <div class="con">
-        <div>
-            <p>main title</p>
-            <span>sub explanation</span>
-        </div>
+        <a herf="www.naver.com">
+            <div class="webimg">
+                <img src="https://dummyimage.com/260x200px">
+            </div>
+            <div class="icon">
+            </div>
+            <h3>Main Title_web</h3>
+            <p>Sub script for this website</p>
+            <span>source</span>
+        </a>
     </div>
 
 </div>
