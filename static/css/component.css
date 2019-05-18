@@ -10,6 +10,10 @@ body {
     color: white;
     line-height: normal;
     background: linear-gradient( to right, skyblue, #1d8dff );
+    margin-top: 20px;
+}
+.component-title:first-of-type {
+    margin-top: 0;
 }
 .component-sub-title {
     font-size: 16px;
