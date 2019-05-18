@@ -5,17 +5,12 @@
     <title> component </title>
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/css/component.css">
-
     <!-- 작업자 CSS경로를 추가 해 주세요. -->
-    <link rel="stylesheet" type="text/css" href="/css/uihong-comp.css">
-    <link rel="stylesheet" type="text/css" href="/css/wholee-comp.css">
-
     {% block style %}{% endblock %}
 </head>
 <body>
     <div class="layout-contents">
         {% block component %}{% endblock %}
-        {% block asdf %}{% endblock %}
         {% block scripts %}{% endblock %}
     </div>
 </body>

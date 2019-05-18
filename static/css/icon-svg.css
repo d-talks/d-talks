@@ -2,9 +2,30 @@
 .icon-svg {
     display: block;
 }
+.svg-50 {
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px !important;
+}
 
 .svg-article {
-    width: 100px;
-    height: 100px;
     background: url(../img/svg/icon_article.svg) no-repeat;
+}
+.svg-awards {
+    background: url(../img/svg/icon_awards.svg) no-repeat;
+}
+.svg-company {
+    background: url(../img/svg/icon_company.svg) no-repeat;
+}
+.svg-education {
+    background: url(../img/svg/icon_education.svg) no-repeat;
+}
+.svg-gallery {
+    background: url(../img/svg/icon_gallery.svg) no-repeat;
+}
+.svg-portfolio {
+    background: url(../img/svg/icon_portfolio.svg) no-repeat;
+}
+.svg-shopping {
+    background: url(../img/svg/icon_shopping.svg) no-repeat;
 }
