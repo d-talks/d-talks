@@ -11,6 +11,12 @@ body {
     line-height: normal;
     background: linear-gradient( to right, skyblue, #1d8dff );
 }
+.component-sub-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    padding-bottom: 10px;
+}
 .component-contents {
     min-height: 400px;
     padding: 10px 20px;
