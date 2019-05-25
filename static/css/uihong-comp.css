@@ -10,6 +10,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     position: relative;
+    margin-bottom: 30px;
 }
 .module-card.uihong .card-visual {
 
@@ -49,4 +50,92 @@ body {
     padding: 10px;
     display: block;
     margin-bottom: 5px;
+}
+
+
+
+
+.card-size-290 {
+    width: 290px;
+    height: auto;
+}
+.radius-6 {
+    border-radius: 6px;
+    overflow: hidden;
+}
+.module-card.uihong2 {
+    background: #fff;
+}
+
+.module-card.uihong2 .card-visual {
+    width: 290px;
+    height: auto;
+}
+.module-card.uihong2 .card-visual img {
+    width: 100%;
+}
+.module-card.uihong2 .card-contents {
+    padding: 40px 14px;
+    position: relative;
+}
+.module-card.uihong2 .card-contents .text-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+.module-card.uihong2 .card-contents .text-sub {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+.module-card.uihong2 .card-contents .icon-favicon {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #000;
+    background: url(../img/icon/pinter.png) no-repeat;
+    background-size: 50px 50px;
+    overflow: hidden;
+    position: absolute;
+    top: -25px;
+    left: 14px;
+}
+
+.module-card.uihong2 .card-footer {
+    padding: 0 14px 14px;
+    position: relative;
+}
+.module-card.uihong2 .card-footer .text-writer {
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.module-card.uihong2 .card-footer .text-writer .writer-by {
+
+}
+.module-card.uihong2 .card-footer .text-writer .writer-name {
+
+}
+
+
+.module-card.uihong2 .card-footer .module-text-icon {
+    display: inline-block;
+    min-width: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 12px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0px;
+    right: 14px;
+}
+.module-card.uihong2 .card-footer .icon-30 {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.module-card.uihong2 .card-footer .radius-15 {
+    border-radius: 15px;
 }
