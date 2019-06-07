@@ -1,0 +1,93 @@
+/* module CSS */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* text-icon */
+.module-text-icon {
+    display: inline-block;
+    min-width: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 12px;  
+    background: #ffffff;
+    
+}
+
+.icon-30 {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.radius-15 {
+    border-radius: 15px;
+}
+
+/* yh S */
+.card-size-290{
+    width: 290px;
+    height: auto;
+}
+.radius-6{
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.module-card.yh {
+    background: #ffffff;
+}
+.module-card.yh .card-visual {
+    width: 290px;
+    height: auto;
+}
+.module-card.yh .card-visual img {
+    width: 100%;    
+}
+.module-card.yh .card-contents {
+    padding: 40px 14px;
+    position: relative;
+}
+.module-card.yh .text-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.module-card.yh .text-sub {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+}
+.module-card.yh .icon-favicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: url(../img/icon/pinter-100x100.png) no-repeat;
+    background-size: 50px 50px;
+    position: absolute;
+    top: -25px;
+    left: 14px;
+}
+.module-card.yh .card-footer {
+    padding: 0 14px 14px;
+    position: relative;
+}
+.module-card.yh .text-writer {
+    font-size: 12px; 
+    font-weight: bold;
+    line-height: 30px;
+}
+.module-card.yh .text-by {}
+.module-card.yh .text-name {}
+.module-card.yh .module-text-icon{
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+
+
+
+
+
+/* yh E */
