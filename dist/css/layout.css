@@ -19,7 +19,6 @@ body {
 }
 
 
-/* 유네님 레이아웃 */
 .layout-view {
     width: 1200px;
     height: 1600px;
@@ -32,19 +31,27 @@ body {
     height: 1600px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 8px;
     z-index: 1;
 }
 .layout-column {
-    width: 78px;
+    width: 84px;
     height: 100%;
     background: magenta;
     opacity: 0.4;
     display: block;
     float: left;
 }
+.layout-gutter {
+    width: 16px;
+    height: 100%;
+    background: #dddd;
+    opacity: 0.4;
+    display: block;
+    float: left;
+}
 .layout-margin {
-    width: 24px;
+    width: 8px;
     height: 100%;
     background: #dddd;
     opacity: 0.4;
