@@ -1,0 +1,42 @@
+{% extends "layouts/layout.njk" %}
+
+{% block layout_view %}
+<div class="layout layout-wrap">
+    <header class="layout-header">
+        <div class="gnb"></div>
+    </header>
+    <aside class="layout-sidebar">
+        <a href="#" class="sidebar-logo"><img src="#" alt="LOGO"></a>
+        <div class="sidebar-inner"></div>
+        <div class="sidebar-dimmed"></div>
+        <script>
+            var sidebar = document.getElementsByClassName("layout-sidebar")[0];
+            var sidebarHandle = document.getElementsByClassName("sidebar-handle")[0];
+            sidebarHandle.addEventListener("click", function() {
+                if (sidebar.classList) { 
+                sidebar.classList.toggle("open");
+                } else {
+                    // For IE9
+                var classes = sidebar.className.split(" ");
+                var i = classes.indexOf("open");
+                console.log(classes);
+                if (i >= 0) {
+                    classes.splice(i, 1);
+                } else {
+                    classes.push("open");
+                }
+                sidebar.className = classes.join(" "); 
+
+                }
+            });
+        </script>
+    </aside>
+    <div class="layout-body">
+        <div class="layout-visual"></div>
+        <div class="layout-container" style="margin-top: 300px; height: 500px;"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
