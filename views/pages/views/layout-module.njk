@@ -8,7 +8,9 @@
     <aside class="layout-sidebar">
         <a href="#" class="sidebar-logo"><img src="#" alt="LOGO"></a>
         <div class="sidebar-inner"></div>
+        <button type="button" class="sidebar-handle"><i class="element-svg arrow-right"></i>닫기</button>
         <div class="sidebar-dimmed"></div>
+        <!-- 임시 구현용 스크립트입니다. -->
         <script>
             var sidebar = document.getElementsByClassName("layout-sidebar")[0];
             var sidebarHandle = document.getElementsByClassName("sidebar-handle")[0];
@@ -33,7 +35,7 @@
     </aside>
     <div class="layout-body">
         <div class="layout-visual"></div>
-        <div class="layout-container" style="margin-top: 300px; height: 500px;"></div>
+        <div class="layout-container" style="margin-top: 200px; height: 500px;"></div>
     </div>
 </div>
 {% endblock %}
