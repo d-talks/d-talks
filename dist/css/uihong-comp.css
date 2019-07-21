@@ -1,53 +1,38 @@
-/* module CSS */
-body {
-    font-family: 'Open Sans', sans-serif;
+/* new card design */
+
+.card-size-224 .uihong {
+    width: 192px;
+    height: 328px;
+    margin: 0 16px 16px 0;
+    padding: 16px;
+    float: left;
 }
-.module-card.uihong {
-    width: 260px;
-    min-height: 250px;
-    display: block;
-    background: #ffffff;
+.card-size-224 .uihong .card-visual {}
+.card-size-224 .uihong .card-visual img {}
+.card-size-224 .uihong .card-visual .gradient {
+    background-image: linear-gradient
+        (to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.79));
+}
+.card-size-224 .uihong .card-contents {}
+.card-size-224 .uihong .card-contents .favicon {
+    width: 30px;
+    height: 30px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    position: relative;
-    margin-bottom: 30px;
+    background-color: #000;
 }
-.module-card.uihong .card-visual {
-
-}
-.module-card.uihong .card-visual img {
-    border-radius: 5px 5px 0px 0px;
-}
-.module-card.uihong .card-contents {
-
-}
-.module-card.uihong .card-contents .icon-svg {
-    position: absolute;
-    right: 20px;
-    bottom: 40px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    border-radius: 50%;
-}
-.module-card.uihong .card-contents .text-title {
-    color: #333333;
+.card-size-224 .uihong .card-contents .text-title {
     font-size: 20px;
-    font-weight: 700;
-    padding: 15px 10px;
+    font-weight: bold;
+    color: #fff;
+    margin: 178px 0 20px 0;
 }
-.module-card.uihong .card-contents .text-sub {
-    color: #999999;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0px 10px ;
-}
-.module-card.uihong .card-footer {
-
-}
-.module-card.uihong .card-footer .text-footer {
-    color: #999999;
+.card-size-224 .uihong .card-contents .text-sub {
     font-size: 11px;
-    font-weight: 400;
-    padding: 10px;
-    display: block;
-    margin-bottom: 5px;
+    font-weight: normal;
+    color: #fff;
+    margin bottom: 20px;
+}
+.card-size-224 .uihong .card-footer {}
+.card-size-224 .uihong .card-footer .tag {
+    margin bottom: 0 14px 20px 0;
 }
