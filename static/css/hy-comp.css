@@ -32,10 +32,13 @@ body {
     background-size: cover; 
 } 
 .icon.icon-pinterest {
-    background: url(../img/icon/pinter-100x100.png) no-repeat;
+    background: url(../img/icon/pinter-16x16.png) no-repeat;
     background-size: cover; 
 } 
-
+.icon.icon-medium {
+    background: url(../img/icon/medium-16x16.png) no-repeat;
+    background-size: cover; 
+}
     
 /* hy S */
 /*
