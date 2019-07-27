@@ -1,9 +1,11 @@
 /* new card design */
 
-
-.component-contents::after {
+.component-contents {
     width: 1200px;
     margin: auto;
+}
+
+.component-contents::after {
     display: block;
     content: '';
     clear: both;
