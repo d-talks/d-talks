@@ -13,31 +13,22 @@ body {
     background: #ffffff;
     
 }
-
 .icon-30 {
     height: 30px;
     line-height: 30px;
     text-align: center;
 }
-.radius-15 {
-    border-radius: 15px;
-}
 
 /* yh S */
-.card-size-290 {
-    width: 290px;
+.module-card.pin-view.yh {
+    width: 284px;
     height: auto;
 }
-.radius-6{
-    border-radius: 6px;
-    overflow: hidden;
-}
-
 .module-card.yh {
     background: #ffffff;
 }
 .module-card.yh .card-visual {
-    width: 290px;
+    width: 100%;
     height: auto;
 }
 .module-card.yh .card-visual img {
