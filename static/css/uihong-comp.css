@@ -1,5 +1,12 @@
 /* new card design */
 
+
+.component-contents::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
 .module-card.uihong {
     position: relative;
     height: 360px;
