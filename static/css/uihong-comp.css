@@ -1,24 +1,27 @@
 /* new card design */
 
-.uihong {
+.module-card.uihong::after {
     position: relative;
     height: 360px;
     margin: 0 16px 16px 0;
     float: left;
+    display: block;
+    content: '';
+    clear: both;
 }
-.uihong .card-visual {}
-.uihong .card-visual img {
+.module-card.uihong .card-visual {}
+.module-card.uihong .card-visual img {
     width: 100%;
 }
-.uihong .card-visual .gradient {
+.module-card.uihong .card-visual .gradient {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
 }
-.uihong .card-contents {}
-.uihong .card-contents .favicon {
+.module-card.uihong .card-contents {}
+.module-card.uihong .card-contents .favicon {
     position: absolute;
     top: 14px;
     left: 14px;
@@ -27,7 +30,7 @@
     border-radius: 5px;
     background-color: #333;
 }
-.uihong .card-contents .text-title {
+.module-card.uihong .card-contents .text-title {
     position: absolute;
     top: 220px;
     left: 14px;
@@ -36,7 +39,7 @@
     line-height: 1.2;
     color: #fff;
 }
-.uihong .card-contents .text-sub {
+.module-card.uihong .card-contents .text-sub {
     position: absolute;
     top: 286px;
     left: 14px;
@@ -46,13 +49,13 @@
     color: #fff;
     margin-bottom: 20px;
 }
-.uihong .card-footer {}
-.uihong .card-footer .tags {
+.module-card.uihong .card-footer {}
+.module-card.uihong .card-footer .tags {
     position: absolute;
     bottom: 14px;
     left: 14px;
 }
-.uihong .card-footer .tags .tag {
+.module-card.uihong .card-footer .tags .tag {
     font-size: 12px;
     font-weight: normal;
     color: #fff;
