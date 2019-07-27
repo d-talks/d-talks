@@ -12,16 +12,30 @@ body {
     padding: 0 12px;
     background: #ffffff;
 }
-    
 .icon-30 {
     height: 30px;
     line-height: 30px;
     text-align: center;
 }
-
 .radius-15 {
     border-radius: 15px;
 }
+/* icon */
+.module-card.hy .icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon.icon-behance {
+    background: url(../img/icon/behance-16x16.png) no-repeat;
+    background-size: cover; 
+} 
+.icon.icon-pinterest {
+    background: url(../img/icon/pinter-100x100.png) no-repeat;
+    background-size: cover; 
+} 
+
     
 /* hy S */
 /*
@@ -53,7 +67,7 @@ body {
     background: #ffffff;
     border-top: 4px solid #000;
     padding-top: 12px;
-}
+ }
     
 /* 마윤님이 가상요소없이 보더를 만듦 */
 /* 
