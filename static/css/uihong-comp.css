@@ -2,6 +2,7 @@
 
 
 .component-contents::after {
+    width: 1200px;
     display: block;
     content: '';
     clear: both;
