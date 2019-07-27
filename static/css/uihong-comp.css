@@ -1,23 +1,8 @@
 /* new card design */
 
-
-.col-1 {
-    width: 224px;
-    height: 360px;
-}
-.col-2 {
-    width: 464px;
-    height: 360px;
-}
-.col-3 {
-    width: 704px;
-    height: 360px;
-}
-
-
-
 .uihong {
     position: relative;
+    height: 360px;
     margin: 0 16px 16px 0;
     float: left;
 }
