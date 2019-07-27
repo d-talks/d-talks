@@ -3,6 +3,7 @@
 
 .component-contents::after {
     width: 1200px;
+    margin: auto;
     display: block;
     content: '';
     clear: both;
