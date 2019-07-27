@@ -1,14 +1,18 @@
 /* new card design */
 
-
-.container {
-    width: 1200px;
-    margin: auto;
-}
-.warp::after {
+.component-contents::after {
     display: block;
     content: '';
     clear: both;
+}
+
+.container {
+    width: 1184px;
+    height: 1500px;
+    margin: auto;
+}
+.wrap {
+    width: 105%;
 }
 
 .module-card.uihong {
