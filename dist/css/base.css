@@ -1,0 +1,30 @@
+/* base CSS */
+/* col */
+.module-card.col-1 {
+    width: 224px;
+} 
+.module-card.col-2 {
+    width: 464px;
+} 
+.module-card.col-3 {
+    width: 704px;
+} 
+
+
+/* radius */
+.radius-4 { 
+    border-radius: 4px;
+    overflow: hidden;
+}
+.radius-6 {
+    border-radius: 6px;
+    overflow: hidden;
+}
+.radius-8 { 
+    border-radius: 8px;
+    overflow: hidden;
+}
+.radius-12 { 
+    border-radius: 12px;
+    overflow: hidden;
+}
