@@ -5,7 +5,7 @@
     "dist": "gulp dist"
   },
   "devDependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "gulp": "^3.9.1",
     "gulp-less": "^3.5.0",
     "gulp-nodemon": "^2.2.1",
